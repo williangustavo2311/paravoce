@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_logo{
+    display: flex;
+    display-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 30vh;
+    width: 100%;
+}
+
+.container_logo img{
+    width: 200px;
+    height: 200px;
+}
+
+.container_logo h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container_main{
+    display: flex;
+}
